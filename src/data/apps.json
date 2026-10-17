@@ -14,7 +14,7 @@
       "status": "LIVE",
       "url": "https://shenanigans.elliotrunsontech.com",
       "domainLabel": "shenanigans.elliotrunsontech.com",
-      "logo": "/shenanigans-logo.svg",
+      "logo": "./shenanigans-logo.svg",
       "accentColor": "#5865f2",
       "secondaryAccent": "#57f287",
       "description": "Jump into real-time group channels, launch instant multiplayer mini-games with friends, and hang out in a custom-built dark-mode arcade experience.",

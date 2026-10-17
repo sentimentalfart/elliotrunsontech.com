@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // Custom domain elliotrunsontech.com serves from root '/'
-  base: '/',
+  // Relative base './' works on both github.io/repo/ and custom root domain elliotrunsontech.com
+  base: './',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
