@@ -1,0 +1,27 @@
+{
+  "name": "elliot-runs-on-tech",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Official portfolio and application launchpad for elliotrunsontech.com",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint src/",
+    "format": "prettier --write \"src/**/*.{js,css,json}\" \"index.html\"",
+    "predeploy": "npm run test:run && npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.14.0",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.4.2",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
+  }
+}

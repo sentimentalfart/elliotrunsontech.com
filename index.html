@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none';"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="theme-color" content="#5865f2" />
+    <title>Elliot Runs On Tech — Apps, Games &amp; Digital Experiments</title>
+    <meta
+      name="description"
+      content="Official launchpad for interactive web applications, multiplayer arcade games, and digital experiments built by Elliot."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <div class="page-wrapper">
+      <!-- TOP NAVIGATION BAR (Architectural Grid Frame) -->
+      <header class="navbar" role="banner">
+        <div class="u-container nav-inner">
+          <a href="#" class="brand-logo" aria-label="Elliot Runs On Tech Home">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span class="brand-text" id="nav-brand-text">ELLIOT.RUNS.ON.TECH</span>
+          </a>
+
+          <nav class="nav-links" aria-label="Primary Navigation">
+            <a href="#live-apps" class="nav-link">
+              <span class="nav-link-index">01</span>
+              <span class="nav-link-label">Live Apps</span>
+              <span class="nav-link-line"></span>
+            </a>
+            <a href="#coming-soon" class="nav-link">
+              <span class="nav-link-index">02</span>
+              <span class="nav-link-label">Coming Soon</span>
+              <span class="nav-link-line"></span>
+            </a>
+          </nav>
+
+          <div class="nav-cta">
+            <a
+              href="https://shenanigans.elliotrunsontech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button_main-wrap is-compact"
+              data-btn-grid-anim="true"
+            >
+              <span class="button_main-element">
+                <span class="button_main_text">Launch Shenanigans ↗</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main id="main-content" class="page-main">
+        <!-- SECTION 1: HERO (Lyric.tech Structural Grid + Interactive Particle Mesh Canvas) -->
+        <section class="u-section hero-section" aria-labelledby="hero-heading">
+          <div class="section_border-group" aria-hidden="true">
+            <div class="section_border-sides u-container">
+              <div class="section_border-vertical"></div>
+              <div class="section_border-vertical"></div>
+            </div>
+          </div>
+
+          <div class="hero-canvas-slot" aria-hidden="true">
+            <canvas id="hero-mesh-canvas"></canvas>
+            <div class="hero-radial-glow"></div>
+          </div>
+
+          <div class="u-container hero-container">
+            <div class="hero-grid-crosshair is-top-left" aria-hidden="true">+</div>
+            <div class="hero-grid-crosshair is-top-right" aria-hidden="true">+</div>
+
+            <div class="hero-content is-hero-anim">
+              <div class="u-eyebrow-component">
+                <span class="eyebrow-pulse" aria-hidden="true"></span>
+                <span class="u-eyebrow-text" id="hero-eyebrow">
+                  CREATIVE WEB STUDIO // INTERACTIVE BUILDS
+                </span>
+              </div>
+
+              <div class="u-heading">
+                <h1 id="hero-heading" class="hero-title">
+                  <span class="anim-line-mask">
+                    <span class="anim-line">Apps, Games &amp;</span>
+                  </span>
+                  <span class="anim-line-mask">
+                    <span class="anim-line hero-title-accent">Digital Experiments.</span>
+                  </span>
+                </h1>
+              </div>
+
+              <div class="u-text hero-subtitle-wrap">
+                <p id="hero-subheadline" class="hero-subtitle">
+                  Forget static templates. Every project here is designed, engineered, and crafted
+                  from the ground up for real-time play and utility.
+                </p>
+              </div>
+
+              <div class="hero-actions">
+                <a
+                  href="#live-apps"
+                  class="button_main-wrap is-primary"
+                  data-btn-grid-anim="true"
+                >
+                  <span class="button_main-element">
+                    <span class="button_main_text">Explore Live Apps ↓</span>
+                  </span>
+                </a>
+                <a
+                  href="https://shenanigans.elliotrunsontech.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="button_main-wrap is-secondary"
+                  data-btn-grid-anim="true"
+                >
+                  <span class="button_main-element">
+                    <span class="button_main_text">Open Shenanigans ↗</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Architectural Meta Strip inside Hero -->
+            <div class="hero-meta-bar">
+              <div class="hero-meta-cell">
+                <span class="meta-label">FEATURED RELEASE</span>
+                <span class="meta-value is-mint">● SHENANIGANS ARCADE</span>
+              </div>
+              <div class="hero-meta-cell">
+                <span class="meta-label">INTERFACE THEME</span>
+                <span class="meta-value">DARK SLATE // BLURPLE</span>
+              </div>
+              <div class="hero-meta-cell">
+                <span class="meta-label">EXPERIENCE</span>
+                <span class="meta-value">MOBILE + DESKTOP READY</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ARCHITECTURAL MARQUEE STRIP (Lyric.tech Horizontal Strip) -->
+        <div class="marquee-section" aria-hidden="true">
+          <div class="section_border-horizontal"></div>
+          <div class="u-container marquee-container">
+            <div class="marquee-track">
+              <div class="marquee-content" id="marquee-track-inner">
+                <span>REAL-TIME MULTIPLAYER</span>
+                <span class="marquee-sep">◆</span>
+                <span>WEB ARCADE PLATFORM</span>
+                <span class="marquee-sep">◆</span>
+                <span>INTERACTIVE EXPERIMENTS</span>
+                <span class="marquee-sep">◆</span>
+                <span>MOBILE-FIRST DESIGN</span>
+                <span class="marquee-sep">◆</span>
+                <span>CUSTOM ENGINEERED</span>
+                <span class="marquee-sep">◆</span>
+                <span>REAL-TIME MULTIPLAYER</span>
+                <span class="marquee-sep">◆</span>
+                <span>WEB ARCADE PLATFORM</span>
+                <span class="marquee-sep">◆</span>
+                <span>INTERACTIVE EXPERIMENTS</span>
+                <span class="marquee-sep">◆</span>
+                <span>MOBILE-FIRST DESIGN</span>
+                <span class="marquee-sep">◆</span>
+                <span>CUSTOM ENGINEERED</span>
+                <span class="marquee-sep">◆</span>
+              </div>
+            </div>
+          </div>
+          <div class="section_border-horizontal"></div>
+        </div>
+
+        <!-- SECTION 2: LIVE APP SHOWCASE (Lyric.tech 5/12 + 7/12 Split Interactive Row) -->
+        <section id="live-apps" class="u-section showcase-section" aria-labelledby="showcase-heading">
+          <div class="section_border-group" aria-hidden="true">
+            <div class="section_border-sides u-container">
+              <div class="section_border-vertical"></div>
+              <div class="section_border-vertical"></div>
+            </div>
+          </div>
+
+          <div class="u-container">
+            <div class="showcase-split-grid">
+              <!-- Left Column (5/12): Editorial Context + Interactive Selector List -->
+              <div class="showcase-col-left" data-reveal>
+                <div class="u-eyebrow-component">
+                  <span class="u-eyebrow-text">// 01. PUBLISHED RELEASES</span>
+                </div>
+                <h2 id="showcase-heading" class="section-heading">
+                  Live Applications
+                </h2>
+                <p class="section-description">
+                  Interactive platforms ready to launch right in your browser. Click or hover an
+                  application below to inspect its capabilities.
+                </p>
+
+                <!-- Interactive Selector List (populated from apps.json) -->
+                <div
+                  id="live-app-selector-list"
+                  class="supply-heading-list"
+                  role="tablist"
+                  aria-label="Published Applications"
+                ></div>
+              </div>
+
+              <!-- Right Column (7/12): Interactive Preview Stage -->
+              <div class="showcase-col-right" data-reveal>
+                <div id="live-app-preview-stage" class="showcase-stage" aria-live="polite"></div>
+              </div>
+            </div>
+          </div>
+          <div class="section_border-horizontal"></div>
+        </section>
+
+        <!-- SECTION 3: COMING SOON (Architectural 3-Column Grid) -->
+        <section id="coming-soon" class="u-section coming-soon-section" aria-labelledby="coming-soon-heading">
+          <div class="section_border-group" aria-hidden="true">
+            <div class="section_border-sides u-container">
+              <div class="section_border-vertical"></div>
+              <div class="section_border-vertical"></div>
+            </div>
+          </div>
+
+          <div class="u-container coming-soon-inner">
+            <div class="coming-soon-header" data-reveal>
+              <div>
+                <div class="u-eyebrow-component is-cyan">
+                  <span class="u-eyebrow-text">// 02. IN THE WORKSHOP</span>
+                </div>
+                <h2 id="coming-soon-heading" class="section-heading">
+                  Coming Soon
+                </h2>
+              </div>
+              <p class="section-description coming-soon-sub">
+                Upcoming prototypes, multiplayer mini-games, and creative web utilities currently in
+                active development.
+              </p>
+            </div>
+
+            <div id="coming-soon-grid" class="coming-soon-grid" role="list"></div>
+          </div>
+          <div class="section_border-horizontal"></div>
+        </section>
+      </main>
+
+      <!-- MINIMAL ARCHITECTURAL FOOTER -->
+      <footer class="site-footer" role="contentinfo">
+        <div class="u-container footer-inner">
+          <div class="footer-brand">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span class="mono-text">ELLIOT.RUNS.ON.TECH</span>
+          </div>
+          <div class="footer-copy mono-text">
+            &copy; <span id="footer-year">2026</span> Elliot Runs On Tech. Crafted from scratch.
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

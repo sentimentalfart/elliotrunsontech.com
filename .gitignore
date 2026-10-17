@@ -1,0 +1,21 @@
+# Environment Variables & Secrets (NEVER commit these!)
+.env
+.env.*
+!.env.example
+
+# Local-Only Private Server Notes & Handover Summary (Strict OPSEC: NEVER push to GitHub!)
+local-only-server-notes/
+.handoversummary.md
+
+# Dependencies & Build Output
+node_modules/
+dist/
+coverage/
+
+# Temporary / Editor / OS Files
+.stitch/
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

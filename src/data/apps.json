@@ -1,0 +1,58 @@
+{
+  "site": {
+    "brand": "ELLIOT.RUNS.ON.TECH",
+    "eyebrow": "CREATIVE WEB STUDIO // INTERACTIVE BUILDS",
+    "headline": "Apps, Games &\nDigital Experiments.",
+    "subheadline": "Forget static templates. Every project here is designed, engineered, and crafted from the ground up for real-time play and utility."
+  },
+  "liveApps": [
+    {
+      "id": "shenanigans",
+      "name": "Shenanigans",
+      "tagline": "Mobile-First Chat & Web Arcade Platform",
+      "category": "SOCIAL & WEB ARCADE",
+      "status": "LIVE",
+      "url": "https://shenanigans.elliotrunsontech.com",
+      "domainLabel": "shenanigans.elliotrunsontech.com",
+      "logo": "/shenanigans-logo.svg",
+      "accentColor": "#5865f2",
+      "secondaryAccent": "#57f287",
+      "description": "Jump into real-time group channels, launch instant multiplayer mini-games with friends, and hang out in a custom-built dark-mode arcade experience.",
+      "highlights": [
+        "Real-Time Messaging & Custom Channels",
+        "Built-In Multiplayer Web Arcade Games",
+        "Mobile-First Responsive Dark Interface"
+      ],
+      "tags": ["Real-Time Chat", "Multiplayer Arcade", "Web App"]
+    }
+  ],
+  "comingSoonApps": [
+    {
+      "id": "project-nebula",
+      "code": "EXP // 02",
+      "name": "Arcade Arena Prototype",
+      "category": "MULTIPLAYER EXPERIMENT",
+      "status": "IN DEVELOPMENT",
+      "accentColor": "#00b0f4",
+      "description": "Fast-paced head-to-head browser challenges designed for instant play on desktop and mobile."
+    },
+    {
+      "id": "project-pulse",
+      "code": "EXP // 03",
+      "name": "Creative Utility Suite",
+      "category": "INTERACTIVE TOOLKIT",
+      "status": "CONCEPT STAGE",
+      "accentColor": "#fee75c",
+      "description": "Lightweight everyday tools and visual experiments crafted with zero bloat and instant responsiveness."
+    },
+    {
+      "id": "project-synth",
+      "code": "EXP // 04",
+      "name": "Next Mystery Drop",
+      "category": "UNANNOUNCED",
+      "status": "PROTOTYPING",
+      "accentColor": "#eb459e",
+      "description": "Currently in the workshop. New apps are added to this launchpad the moment they are ready for the world."
+    }
+  ]
+}
